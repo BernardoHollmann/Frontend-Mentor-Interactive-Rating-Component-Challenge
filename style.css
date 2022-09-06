@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  Font-size: 15px;
+}
+
+.rating-container, 
+.tku-container{
+  background-color: hsl(213, 19%, 18%);
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 25em;
+  max-width: 27em; 
+}
+
+.tku-container{
+  display: none;
+}
+
+.icon{
+  padding: 1rem;
+  margin: 1.5rem;
+  align-self: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 20%, 21%);
+  border-radius: 50%;
+}
+
+.tku-icon{
+  margin: 2rem;
+}
+
+.text,
+.tku-text{
+  padding: 0.8rem 1.5rem 1.2rem 1.5rem;
+}
+
+.text h1{
+  color: #fff;
+  padding-bottom: 1.5rem;
+}
+
+.tku-text h5{
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 5px 10px;
+  width: 200px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(214, 20%, 21%);
+  border-radius: 20px;
+}
+
+.text p,
+.tku-text p{
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5rem;
+  padding-right: 25px;
+}
+
+.tku-text p, h1{
+  text-align: center;
+}
+
+.tku-text h1{
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.tku-text p{
+  padding-bottom: 2rem;
+}
+
+.numbers{
+  margin-bottom: 2rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating-btn{
+  font-weight: 700;
+  width: 3rem;
+  height: 3rem;
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  background-color: hsl(216, 12%, 54%, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-btn:hover{
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rating-btn:focus{
+  color: #fff;
+  background-color: hsl(217, 12%, 63%);
+}
+
+.submit-btn{
+  font-family: 'Overpass', sans-serif;
+  min-width: 26em;
+  margin-bottom: 1.5rem;
+  border: none;
+  padding: 10px;
+  border-radius: 18px;
+  font-weight: 700;
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
